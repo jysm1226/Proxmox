@@ -18,9 +18,9 @@ EOF
 }
 header_info
 echo -e "Loading..."
-APP="AlaSVR"
-var_disk="2"
-var_cpu="1"
+APP="Homepage"
+var_disk="3"
+var_cpu="2"
 var_ram="1024"
 var_os="debian"
 var_version="12"
