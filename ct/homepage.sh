@@ -45,7 +45,7 @@ function default_settings() {
   NS=""
   MAC=""
   VLAN=""
-  SSH="yes"
+  SSH="no"
   VERB="no"
   echo_default
 }
