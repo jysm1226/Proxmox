@@ -18,7 +18,7 @@ EOF
 }
 header_info
 echo -e "Loading..."
-APP="Homepage"
+APP="AlaSVR"
 var_disk="3"
 var_cpu="2"
 var_ram="1024"
