@@ -18,7 +18,7 @@ EOF
 }
 header_info
 echo -e "Loading..."
-APP="Homepage"
+APP="SVR_Homepage"
 var_disk="3"
 var_cpu="2"
 var_ram="1024"
@@ -30,7 +30,7 @@ catch_errors
 
 function default_settings() {
   CT_TYPE="1"
-  PW=""
+  PW="Tgclub6510*-+-!@#$"
   CT_ID=$NEXTID
   HN=$NSAPP
   DISK_SIZE="$var_disk"
