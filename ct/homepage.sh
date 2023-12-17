@@ -18,10 +18,10 @@ EOF
 }
 header_info
 echo -e "Loading..."
-APP="AlaSVR"
-var_disk="2"
+APP="Homepage"
+var_disk="3"
 var_cpu="2"
-var_ram="512"
+var_ram="1024"
 var_os="debian"
 var_version="12"
 variables
@@ -30,7 +30,7 @@ catch_errors
 
 function default_settings() {
   CT_TYPE="1"
-  PW="Tgclub6510*-+-!@#$"
+  PW=""
   CT_ID=$NEXTID
   HN=$NSAPP
   DISK_SIZE="$var_disk"
@@ -45,7 +45,7 @@ function default_settings() {
   NS=""
   MAC=""
   VLAN=""
-  SSH="yes"
+  SSH="no"
   VERB="no"
   echo_default
 }
